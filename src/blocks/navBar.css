@@ -1,6 +1,52 @@
+.nav__bar {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  margin: 0px auto;
+  padding: 0px 35px;
+  box-sizing: border-box;
+  z-index: 200;
+}
+
+.nav__logo {
+  width: 50px;
+  margin: 0px;
+}
+
+.nav__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.nav__button {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  max-width: 100%;
+  height: 100px;
+  margin: 0px auto;
+  padding: 0px 25px;
+  transition: all 0.3s ease;
+}
+
+.nav__button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
 .nav__text {
   width: 100%;
-  color: #000;
+  color: #fff;
   font-family: "Inter";
   font-size: 50px;
 }
