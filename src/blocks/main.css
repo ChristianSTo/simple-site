@@ -34,7 +34,14 @@
 .main__span {
   font-family: "Space Grotesk", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #816cf9;
+  /* color: #816cf9; */
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    rgb(112, 255, 231),
+    rgb(157, 87, 255)
+  );
 }
 
 .main__subheading {

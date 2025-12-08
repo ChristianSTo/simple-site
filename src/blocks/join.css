@@ -1,0 +1,38 @@
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #232536;
+  background-image: linear-gradient(#000, #232536);
+  margin: 0px;
+  padding: 0px;
+}
+
+.join__h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+}
+
+.join__span {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    to bottom,
+    #00bc38 0%,
+    #00bc38 16.6667%,
+    #ffb900 16.6667%,
+    #ffb900 33.3333%,
+    #ff8301 33.3333%,
+    #ff8301 50%,
+    #ff373c 50%,
+    #ff373c 66.6667%,
+    #ad3b9b 66.6667%,
+    #ad3b9b 83.3333%,
+    #009edf 83.3333%,
+    #009edf 100%
+  );
+}
