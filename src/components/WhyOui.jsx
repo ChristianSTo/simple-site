@@ -6,7 +6,7 @@ function WhyOui() {
   return (
     <section className="why">
       <h2 className="why__h2">
-        Why <span className="why__span">OUInvest</span> Exists
+        Why <span className="why__span">O</span>UInvest Exists
       </h2>
       <div className="why__container">
         <div className="why__idea">

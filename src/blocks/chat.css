@@ -1,0 +1,14 @@
+.chat {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+
+.chat:hover {
+  cursor: pointer;
+}
+
+.chat__icon {
+  height: 50px;
+  z-index: 5;
+}

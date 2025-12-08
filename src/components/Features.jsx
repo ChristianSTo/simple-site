@@ -6,7 +6,7 @@ import chart from "../assets/images/chart-no-axes-combined.svg";
 
 function Features() {
   return (
-    <section className="features">
+    <section className="features" id="features">
       <h2 className="features__h2">
         Everything you need to build
         <span className="features__span"> generational wealth.</span>

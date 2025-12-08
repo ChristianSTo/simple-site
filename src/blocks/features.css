@@ -23,10 +23,14 @@
   color: transparent;
   background-clip: text;
   background-image: linear-gradient(
-    to right,
-    rgb(112, 255, 231),
-    rgb(157, 87, 255)
+    to left,
+    rgb(112, 255, 231) 0%,
+    rgb(157, 87, 255) 40%,
+    rgb(112, 255, 231) 60%,
+    rgb(157, 87, 255) 100%
   );
+  background-size: 200% auto;
+  animation: gradient 3s linear infinite alternate;
 }
 
 .features__grid {
@@ -73,4 +77,13 @@
   font-size: 1rem;
   text-align: left;
   color: #fff;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
 }

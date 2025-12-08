@@ -4,6 +4,7 @@ import diverseGroup from "../assets/images/diverseGroup.avif";
 import WhyOui from "./WhyOui";
 import Features from "./Features";
 import Join from "./Join";
+import BackedBy from "./BackedBy";
 function Main() {
   return (
     <>
@@ -22,6 +23,7 @@ function Main() {
             What's Your Unique Investor Vibe?
           </button>
         </div>
+
         <img
           className="main__image"
           src={diverseGroup}
@@ -31,6 +33,7 @@ function Main() {
       <WhyOui />
       <Features />
       <Join />
+      <BackedBy />
     </>
   );
 }

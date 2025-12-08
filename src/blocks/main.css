@@ -22,6 +22,7 @@
   font-family: "Space Grotesk", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 3rem;
+  font-weight: bold;
   text-align: left;
   color: #fff;
   width: 100%;
@@ -38,10 +39,14 @@
   color: transparent;
   background-clip: text;
   background-image: linear-gradient(
-    to right,
-    rgb(112, 255, 231),
-    rgb(157, 87, 255)
+    to left,
+    rgb(112, 255, 231) 0%,
+    rgb(157, 87, 255) 40%,
+    rgb(112, 255, 231) 60%,
+    rgb(157, 87, 255) 100%
   );
+  background-size: 200% auto;
+  animation: gradient 3s linear infinite alternate;
 }
 
 .main__subheading {
@@ -72,7 +77,8 @@
   font-size: 1rem;
   width: 100%;
   color: #fff;
-  background-color: #816cf9;
+  background-color: #232536;
+  /* background-color: #816cf9; */
   border: 2px solid #fff;
   border-radius: 16px;
   margin: 0px auto;
@@ -85,4 +91,13 @@
   color: #fff;
   background-color: #232536;
   box-shadow: 0px 0px 20px #816cf9;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
 }
