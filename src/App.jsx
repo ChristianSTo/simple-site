@@ -8,7 +8,7 @@ import Blogs from "./components/Blogs";
 import NavBar from "./components/NavBar";
 function App() {
   return (
-    <div className="app space">
+    <>
       <NavBar />
       <Routes>
         <Route path="/" element={<Main />} />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/ourstory" element={<OurStory />} />
         <Route path="/blog" element={<Blogs />} />
       </Routes>
-    </div>
+    </>
   );
 }
 

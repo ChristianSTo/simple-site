@@ -1,12 +1,12 @@
 .nav__bar {
   position: fixed;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 100px;
   background-color: #000;
+  border-bottom: 2px solid #816cf9;
   margin: 0px auto;
   padding: 0px 35px;
   box-sizing: border-box;
